@@ -1,0 +1,26 @@
+{
+  "name": "element-virtual-select",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.13",
+    "lodash-es": "^4.17.21",
+    "vue": "^2.7.7",
+    "vue-virtual-scroll-list": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "@vue/test-utils": "^1.3.0",
+    "jsdom": "^20.0.0",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2",
+    "vitest": "^0.18.1",
+    "vue-template-compiler": "^2.7.7"
+  }
+}
